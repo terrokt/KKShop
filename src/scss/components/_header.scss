@@ -1,0 +1,15 @@
+.header {
+  padding: 25px 0;
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: 40px;
+  }
+
+  &__btns {
+    margin-left: auto;
+  }
+}
