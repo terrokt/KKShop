@@ -1,0 +1,24 @@
+.slider {
+  &-btns {
+    display: flex;
+    align-items: center;
+
+  }
+
+  &-btn {
+    &-icon {
+      width: 20px;
+      height: 10px;
+    }
+
+    &:not(:last-child) {
+      margin-right: 18px;
+    }
+
+    &--prev {
+      transform: rotate(180deg);
+      fill: #B2B2B2;
+    }
+  }
+}
+

@@ -1,0 +1,28 @@
+.stock {
+  padding: 75px 0;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.stock-swiper {
+  &__item {
+    max-width: 990px;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+  }
+
+  &__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--light-text);
+  }
+}
